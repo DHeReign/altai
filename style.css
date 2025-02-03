@@ -168,10 +168,8 @@ body {
     }
 
     .footer__nav {
-        flex-wrap: wrap;
-    }
-
-    .nav__item {
-        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        line-height: 1;
     }
 }
