@@ -166,4 +166,12 @@ body {
     .header {
         height: 500px;
     }
+
+    .footer__nav {
+        flex-wrap: wrap;
+    }
+
+    .nav__item {
+        width: 100%;
+    }
 }
