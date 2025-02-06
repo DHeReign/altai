@@ -60,6 +60,29 @@ body {
     font-family: inherit;
     font-size: 20px;
     text-transform: capitalize;
+    position: relative;
+    transform: opacity 1s;
+}
+
+.nav__link::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    width: 0px;
+    border: 0px;
+    transition: 0.3s;
+}
+
+.nav__link:hover::after {
+   border: 1px solid white;
+   width: 100%;
+   transform: s;
+}
+
+.gallery__card:hover {
+    transform: scale(1.02);
+    z-index: 1;
 }
 
 .header__menu {
