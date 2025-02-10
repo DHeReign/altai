@@ -183,6 +183,11 @@ body {
     width: 100%;
     border-radius: 16px;
     object-fit: cover;
+    filter: blur(3px);
+}
+
+.gallery__photo:hover {
+    filter: none;
 }
 
 
